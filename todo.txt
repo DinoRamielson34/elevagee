@@ -1,0 +1,27 @@
+Conception de base de donnee:
+    Creation de la base airbnb /
+    Creation des tables: users,properties,reservations,availability /
+    Donnee de test pour la table properties /
+
+Collecte d'images d'habitations (50)
+
+-BackOffice:
+    page listeHabitation:
+        affichage: Liste des habitations avec bouton creer ,supprimer et modifier /
+        model: CrudModel , creer fonction Listerhabitation() /
+        view: listeHabitation /
+        controller: CrudController , creer fonction listeHabitation() /
+        base: utilisateurs /
+        routage: /liste
+    page AjoutHabitation:
+
+-FrontOffice:
+    creation de la page log pour mettre la page login_form /
+    page login_form:
+        affichage: Formulaire de login et inscription /
+        model: LogModel , creer fonction getUserByEmail() /
+        view: listeHabitation /
+        controller: CrudController , creer fonction listeHabitation() /
+        base: utilisateurs /
+        routage: /liste
+
